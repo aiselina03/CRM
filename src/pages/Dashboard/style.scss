@@ -1,0 +1,44 @@
+.dashboard {
+  max-width: 100%;
+  width: 90%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .dashboard {
+    max-width: 100%;
+    width: 90%;
+    margin: 90px auto;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .chart1 {
+      width: 300px;
+    }
+
+    .chart2 {
+      width: 300px;
+    }
+    .chart3 {
+      width: 300px;
+    }
+
+    .chart4 {
+      width: 300px;
+    }
+    .mixed-chart {
+      width: 300px;
+    }
+
+    .polar-area-chart {
+      width: 300px;
+    }
+  }
+}
